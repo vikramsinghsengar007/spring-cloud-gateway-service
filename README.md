@@ -16,6 +16,7 @@ This example project covers the usage of Spring Cloud Gateway along with Hystrix
 - `http://localhost:8080/v1/joke` - Joke Service
 - `http://localhost:8080/actuator/hystrix.stream` - Hystrix Stream endpoint
 - `http://localhost:8081/hystrix` - Hystrix Dashboard
+-http://localhost:8081/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fhystrix.stream - health check
 
 ## References
 - [Countries API](https://rapidapi.com/apilayernet/api/rest-countries-v1?endpoint=53aa5a08e4b0a705fcc323a6)
